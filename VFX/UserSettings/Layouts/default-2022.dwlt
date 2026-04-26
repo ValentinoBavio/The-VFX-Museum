@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 12260
+  controlID: 77
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 12261
+  controlID: 78
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 12181
+  controlID: 79
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 1040
     height: 552
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -248,8 +248,8 @@ MonoBehaviour:
     y: 552
     width: 1040
     height: 387
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -275,8 +275,8 @@ MonoBehaviour:
     y: 0
     width: 220
     height: 939
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -354,7 +354,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: "C:\\Users\\Valentino\\Desktop\\FACULTAD\\Davinci\\1MATERIAS\\4\xBA
     cuatrimestre\\Efectos Visuales\\The-VFX-Museum\\VFX"
@@ -370,9 +370,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3ab20000
-    m_LastClickedID: 45626
-    m_ExpandedIDs: 00000000927a00009c7a0000ffffff7f
+    m_SelectedIDs: 64060000
+    m_LastClickedID: 1636
+    m_ExpandedIDs: 0000000010060000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000927a00009c7a0000ffffff7f
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -852,9 +852,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.377599, y: 2.964306, z: 29.226765}
+    m_Target: {x: 2.9609995, y: -1.2774495, z: 30.694391}
     speed: 2
-    m_Value: {x: 8.377599, y: 2.964306, z: 29.226765}
+    m_Value: {x: 2.9609995, y: -1.2774495, z: 30.694391}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -900,13 +900,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.122482754, y: 0.6570958, z: -0.109942004, w: -0.73585665}
+    m_Target: {x: -0.25884056, y: 0.62085766, z: -0.22899671, w: -0.70388144}
     speed: 2
-    m_Value: {x: -0.12356448, y: 0.6568154, z: -0.11090854, w: -0.7355437}
+    m_Value: {x: -0.2584514, y: 0.6218036, z: -0.22934444, w: -0.7028259}
   m_Size:
-    m_Target: 1.4586965
+    m_Target: 10.377972
     speed: 2
-    m_Value: 1.4586965
+    m_Value: 9.931073
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -4491,10 +4491,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3004fdff
-      m_LastClickedID: -195536
-      m_ExpandedIDs: 2cfbffff
+      scrollPos: {x: 0, y: 847}
+      m_SelectedIDs: a0da0000
+      m_LastClickedID: 55968
+      m_ExpandedIDs: 387efeff987ffeffa880feff7284feff0ae60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
