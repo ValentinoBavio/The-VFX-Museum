@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Liquid
+  m_Name: Liquido Pocion
   m_Shader: {fileID: -6465566751694194690, guid: 70fd6106559cd6546862b560b54e3d4e,
     type: 3}
   m_Parent: {fileID: 0}
@@ -55,12 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.22
+    - _Amplitude: 0.00001
     - _Fill: 0.59
     - _FillAmount: -0.6
     - _FoamWidth: 0.031
-    - _Foam_Smoothness: 0.16
-    - _Frequency: 2.43
+    - _Foam_Smoothness: 1
+    - _Frequency: 0.00001
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rim_Power: 2
