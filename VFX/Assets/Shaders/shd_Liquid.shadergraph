@@ -318,6 +318,9 @@
         },
         {
             "m_Id": "dd9b094a04c644a9acb4764d6a6b2a13"
+        },
+        {
+            "m_Id": "d9d251b3a65e4eb3a8eecbcdeb212eb3"
         }
     ],
     "m_Edges": [
@@ -8831,6 +8834,26 @@
         "e31": 0.0,
         "e32": 0.0,
         "e33": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d9d251b3a65e4eb3a8eecbcdeb212eb3",
+    "m_Title": "El fill position",
+    "m_Content": "es como haber pegado todo el conjunto enorme que esta arriba del todo\n",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -7324.0,
+        "y": 1349.0,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
