@@ -34,9 +34,9 @@ public class DestroyOnLayer : MonoBehaviour
             Vector3 hitPoint = collision.contacts.Length > 0
                 ? collision.contacts[0].point
                 : transform.position;
-
-            SpawnPuddle(hitPoint);
             Destroy(gameObject);
+            SpawnPuddle(hitPoint);
+            
         }
     }
 

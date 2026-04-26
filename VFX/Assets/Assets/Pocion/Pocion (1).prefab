@@ -26,17 +26,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bc7b65108a71e7740ad6893286989d42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.81
+      value: 18.936853
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc7b65108a71e7740ad6893286989d42,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3525
+      value: 1.537
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc7b65108a71e7740ad6893286989d42,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.3334
+      value: -1.396
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bc7b65108a71e7740ad6893286989d42,
         type: 3}
@@ -77,7 +77,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eefd1328d0b82ea43ab5245adeb2d929, type: 2}
+      objectReference: {fileID: 2100000, guid: b17bff2bc262a7a43b1c9e0a45554df1, type: 2}
     - target: {fileID: -1732341161276961203, guid: bc7b65108a71e7740ad6893286989d42,
         type: 3}
       propertyPath: m_Name
@@ -169,7 +169,7 @@ MonoBehaviour:
   Recovery: 1
   Thickness: 1
   CompensateShapeAmount: 0
-  mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  mesh: {fileID: -7385667383941286786, guid: bc7b65108a71e7740ad6893286989d42, type: 3}
   rend: {fileID: 3618300499888151454}
 --- !u!23 &3618300499888151454 stripped
 MeshRenderer:
