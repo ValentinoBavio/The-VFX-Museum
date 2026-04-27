@@ -3,7 +3,32 @@ guid: 480dac28a6842344b99f80cbd2973db6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face.png
+    second: {fileID: 2100000, guid: 631ef82a159544d47824babb051fb168, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hands.png
+    second: {fileID: 2100000, guid: f8956d1dfef5ac64f8a4fbf73caa85dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palms.png
+    second: {fileID: 2100000, guid: ce4853690eae35442aa2b38cfb65ca36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex01.png
+    second: {fileID: 2100000, guid: b0da554913f62384c820207db8ad3a38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex02.png
+    second: {fileID: 2100000, guid: d2d71e746febb7d448f50ad33a5b10dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
