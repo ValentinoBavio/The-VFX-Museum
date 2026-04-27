@@ -10,9 +10,6 @@
             "m_Id": "421808c2bd3441268db87161705939a1"
         },
         {
-            "m_Id": "6f0e7ee9362046538145085c5dcfd8ca"
-        },
-        {
             "m_Id": "3784ceb92df5444a8cdff25bb6c8c215"
         },
         {
@@ -279,6 +276,20 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "592c9499ff1947eca33aee0bb2094caf"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "138d7e4e3dee4a5dbd49fb522eedaf60"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "328a8685265745d1a4f08a1b58bca540"
                 },
                 "m_SlotId": 1
             }
@@ -657,20 +668,6 @@
             "m_InputSlot": {
                 "m_Node": {
                     "m_Id": "138d7e4e3dee4a5dbd49fb522eedaf60"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "a710fd7843734d6fa8033c3b96ae387d"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "328a8685265745d1a4f08a1b58bca540"
                 },
                 "m_SlotId": 1
             }
@@ -2335,10 +2332,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4597.009765625,
-            "y": 1352.91748046875,
-            "width": 0.0,
-            "height": 0.0
+            "x": 4571.0,
+            "y": 1322.0,
+            "width": 129.0,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -3713,36 +3710,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
-    "m_ObjectId": "6f0e7ee9362046538145085c5dcfd8ca",
-    "m_Guid": {
-        "m_GuidSerialized": "61bbb10c-268d-47fb-af1e-7a11656db64d"
-    },
-    "m_Name": "PrismMask",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "PrismMask",
-    "m_DefaultReferenceName": "_PrismMask",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": {
-        "m_SerializedTexture": "",
-        "m_Guid": ""
-    },
-    "isMainTexture": false,
-    "useTilingAndOffset": false,
-    "m_Modifiable": true,
-    "m_DefaultType": 0
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "6f7295e15ca944d6b5fcfbd050d1b8a7",
     "m_Id": 2,
@@ -3975,9 +3942,6 @@
         },
         {
             "m_Id": "421808c2bd3441268db87161705939a1"
-        },
-        {
-            "m_Id": "6f0e7ee9362046538145085c5dcfd8ca"
         },
         {
             "m_Id": "3784ceb92df5444a8cdff25bb6c8c215"
@@ -4793,10 +4757,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 4582.00048828125,
-            "y": 2059.000244140625,
+            "x": 4574.0,
+            "y": 2068.0,
             "width": 126.0,
-            "height": 76.999755859375
+            "height": 77.0
         }
     },
     "m_Slots": [
