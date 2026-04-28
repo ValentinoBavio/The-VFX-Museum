@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 27185
+  controlID: 62
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 27186
+  controlID: 63
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 27187
+  controlID: 64
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: "C:\\Users\\Valentino\\Desktop\\FACULTAD\\Davinci\\1MATERIAS\\4\xBA
     cuatrimestre\\Efectos Visuales\\The-VFX-Museum\\VFX"
@@ -474,9 +474,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9a070000
-    m_LastClickedID: 1946
-    m_ExpandedIDs: 00000000f606000046070000
+    m_SelectedIDs: 6c060000
+    m_LastClickedID: 1644
+    m_ExpandedIDs: 0000000010060000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +504,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f606000046070000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 2c710000566a0000666a0000b6f7ffff346d0000646d00000e7f00000a7e00005a9b0200549b0200589b0200569b0200a46c00007402000000000000a0460200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -556,7 +556,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 25}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 142
@@ -956,9 +956,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.723937, y: 1.0421946, z: 14.099275}
+    m_Target: {x: 5.94012, y: -3.9585478, z: 1.5147771}
     speed: 2
-    m_Value: {x: 8.723937, y: 1.0421946, z: 14.099275}
+    m_Value: {x: 5.94012, y: -3.9585478, z: 1.5147771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1004,13 +1004,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21561117, y: -0.20450059, z: 0.046197727, w: 0.95380056}
+    m_Target: {x: 0.21790509, y: -0.6031008, z: 0.1759014, w: 0.74701214}
     speed: 2
-    m_Value: {x: 0.21559195, y: -0.20448235, z: 0.046193607, w: 0.9537155}
+    m_Value: {x: 0.2178853, y: -0.603046, z: 0.17588542, w: 0.7469443}
   m_Size:
-    m_Target: 4.0683794
+    m_Target: 16.782211
     speed: 2
-    m_Value: 4.0683794
+    m_Value: 16.782211
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -9089,21 +9089,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 70d2fbff18d3fbffb6d6fbffd8e2fbfff2e3fbff94e7fbffcc80feff26db0000
+      m_ExpandedIDs: 4638feff6039feff063dfeffd67bfeffae7efeff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: OBSTACULO COLUMNA
-        m_OriginalName: OBSTACULO COLUMNA
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -169466
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
