@@ -7,6 +7,10 @@ public class PlayerPickup : MonoBehaviour
     public Transform holdPoint; // lugar donde se sostiene el objeto
     public float pickupRadius = 2f;
 
+    [Header("Texto flotante")]
+    [SerializeField] private GameObject pickupTextObject;
+    [SerializeField] private bool hideTextOnPickup = true;
+
     private GameObject currentObject;
 
     void Update()
@@ -34,7 +38,12 @@ public class PlayerPickup : MonoBehaviour
             {
                 currentObject = hit.gameObject;
 
-                // Desactivar física
+                if (hideTextOnPickup && pickupTextObject != null)
+                {
+                    pickupTextObject.SetActive(false);
+                }
+
+                // Desactivar fÃ­sica
                 Rigidbody rb = currentObject.GetComponent<Rigidbody>();
                 if (rb != null)
                 {
