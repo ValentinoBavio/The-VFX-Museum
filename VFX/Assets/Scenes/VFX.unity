@@ -10206,6 +10206,132 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9176310897612776759, guid: 9dccce7a3675c4f43b04ca1f23520842, type: 3}
+--- !u!1 &256397386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f1b9dc692075c846bd3515961499385,
+    type: 3}
+  m_PrefabInstance: {fileID: 1024078917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &256397387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256397386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82abb05506d5e6742a25c112408150bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listenerTarget: {fileID: 334143379}
+  useMainCameraIfEmpty: 1
+  minDistance: 2
+  maxDistance: 4
+  clip: {fileID: 8300000, guid: 64aa29095609116448e9f411d8700506, type: 3}
+  sfxMixerGroup: {fileID: 0}
+  volume: 0.1
+  useRandomPitch: 1
+  pitchMin: 0.1
+  pitchMax: 0.5
+  useCooldown: 1
+  cooldown: 0.75
+--- !u!82 &256397388
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256397386}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 64aa29095609116448e9f411d8700506, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &268382536
 GameObject:
   m_ObjectHideFlags: 0
@@ -17567,14 +17693,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82abb05506d5e6742a25c112408150bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listener: {fileID: 334143379}
+  listenerTarget: {fileID: 334143379}
+  useMainCameraIfEmpty: 1
   minDistance: 2
   maxDistance: 20
-  maxVolume: 0.1
-  fadeSpeed: 6
-  playOnStart: 1
-  stopWhenFar: 1
-  outputMixerGroup: {fileID: 0}
+  clip: {fileID: 8300000, guid: 8e133b97a1333af4ba5731bbb2c284d0, type: 3}
+  sfxMixerGroup: {fileID: 0}
+  volume: 0.1
+  useRandomPitch: 0
+  pitchMin: 1
+  pitchMax: 1
+  useCooldown: 0
+  cooldown: 3
 --- !u!1 &639184887
 GameObject:
   m_ObjectHideFlags: 0
@@ -19673,14 +19803,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82abb05506d5e6742a25c112408150bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listener: {fileID: 334143379}
+  listenerTarget: {fileID: 334143379}
+  useMainCameraIfEmpty: 1
   minDistance: 2
   maxDistance: 5
-  maxVolume: 1
-  fadeSpeed: 6
-  playOnStart: 1
-  stopWhenFar: 1
-  outputMixerGroup: {fileID: 0}
+  clip: {fileID: 8300000, guid: f441309e1e23d8f4db0d07db2d2b9167, type: 3}
+  sfxMixerGroup: {fileID: 0}
+  volume: 1
+  useRandomPitch: 0
+  pitchMin: 1
+  pitchMax: 1
+  useCooldown: 0
+  cooldown: 3
 --- !u!82 &757862785
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25989,7 +26123,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f1b9dc692075c846bd3515961499385,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 256397388}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4f1b9dc692075c846bd3515961499385,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 256397387}
   m_SourcePrefab: {fileID: 100100000, guid: 4f1b9dc692075c846bd3515961499385, type: 3}
 --- !u!1 &1038135215
 GameObject:
@@ -39324,7 +39466,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -39418,14 +39560,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82abb05506d5e6742a25c112408150bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listener: {fileID: 334143379}
+  listenerTarget: {fileID: 334143379}
+  useMainCameraIfEmpty: 1
   minDistance: 2
   maxDistance: 5
-  maxVolume: 0.2
-  fadeSpeed: 6
-  playOnStart: 1
-  stopWhenFar: 1
-  outputMixerGroup: {fileID: 0}
+  clip: {fileID: 8300000, guid: e3713a03d4df6c048bc2c1de42c76302, type: 3}
+  sfxMixerGroup: {fileID: 0}
+  volume: 0.2
+  useRandomPitch: 0
+  pitchMin: 1
+  pitchMax: 1
+  useCooldown: 0
+  cooldown: 3
 --- !u!1 &1420027990
 GameObject:
   m_ObjectHideFlags: 0
