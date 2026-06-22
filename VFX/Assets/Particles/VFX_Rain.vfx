@@ -245,7 +245,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 200
+      m_SerializableObject: 600
     m_Space: -1
   m_Property:
     name: Rate
@@ -348,7 +348,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617009}
   - {fileID: 8926484042661617113}
   dataType: 0
-  capacity: 200
+  capacity: 1000
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
   - {fileID: 8926484042661617364}
   - {fileID: 8926484042661617366}
   dataType: 0
-  capacity: 1000
+  capacity: 3000
   stripCapacity: 1
   particlePerStripCount: 128
   needsComputeBounds: 0
@@ -4635,7 +4635,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Transform, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":20.0,"y":1.0,"z":20.0}}'
+      m_SerializableObject: '{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":60.0,"y":1.0,"z":60.0}}'
     m_Space: 0
   m_Property:
     name: transform
@@ -5672,9 +5672,9 @@ MonoBehaviour:
   - {fileID: 8926484042661618288}
   - {fileID: 8926484042661618290}
   dataType: 1
-  capacity: 40000
-  stripCapacity: 200
-  particlePerStripCount: 200
+  capacity: 1000000
+  stripCapacity: 1000
+  particlePerStripCount: 1000
   needsComputeBounds: 0
   boundsMode: 0
   m_Space: 1
