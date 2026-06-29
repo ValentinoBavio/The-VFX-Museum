@@ -62,7 +62,7 @@ Material:
     - _Cull: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _EdgeGlow: 1.51
+    - _EdgeGlow: 0.14
     - _GelInternalDepth: 0.17
     - _GelNoiseSize: 12.42
     - _GelNoiseSpeed: 0.62
@@ -77,7 +77,7 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _WetShine: 4
+    - _WetShine: 0.22
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 1

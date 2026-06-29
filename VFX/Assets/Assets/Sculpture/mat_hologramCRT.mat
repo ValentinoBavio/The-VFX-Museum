@@ -41,7 +41,7 @@ Material:
     m_Floats:
     - _Alpha: 0.55
     - _BaseIntensity: 3.8
-    - _EmissionIntensity: 6
+    - _EmissionIntensity: 0.5
     - _Flicker: 0.08
     - _FlickerAmount: 0.26
     - _FlickerSpeed: 8
@@ -49,8 +49,8 @@ Material:
     - _NoiseSpeed: 11
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RimIntensity: 17.18
-    - _RimPower: 3
+    - _RimIntensity: 0.5
+    - _RimPower: 0.5
     - _ScanFreq: 750
     - _ScanSpeed: 25
     m_Colors:
