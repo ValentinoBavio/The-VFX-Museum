@@ -43,8 +43,9 @@ Material:
     - _Amplitude: 0.22
     - _Foam_Smoothness: 0.16
     - _Frequency: 2.43
-    - _WobbleX: 0.00005405407
-    - _WobbleZ: 0.00005405407
-    m_Colors: []
+    - _WobbleX: -0.000018345567
+    - _WobbleZ: -0.000018345567
+    m_Colors:
+    - _FillAmount: {r: 0, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
