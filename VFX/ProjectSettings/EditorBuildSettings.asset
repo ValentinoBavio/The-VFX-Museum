@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VFX.unity
     guid: 667d963411ff05042aa1ab315c687fbf
+  - enabled: 1
+    path: Assets/Scenes/DisplayScene.unity
+    guid: a6d566536cc718c4db1c13c925ab3798
   m_configObjects: {}
