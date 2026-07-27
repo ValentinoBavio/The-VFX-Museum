@@ -57,7 +57,8 @@ MonoBehaviour:
   - {fileID: 1346265912261232064}
   - {fileID: 3807915461837642933}
   - {fileID: 6394352869153192241}
-  m_RendererFeatureMap: adc0de57c6d2eee5c0458ce1b6e5ae12b5dc8cf5ef6ed834313960460e4ebd58
+  - {fileID: 8325450713178882704}
+  m_RendererFeatureMap: adc0de57c6d2eee5c0458ce1b6e5ae12b5dc8cf5ef6ed834313960460e4ebd5890c20c4250f18973
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -180,13 +181,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
-  m_Name: FullScreenPassRendererFeature
+  m_Name: TELEPORTPassRendererFeature
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
-  m_Active: 1
-  injectionPoint: 600
+  m_Active: 0
+  injectionPoint: 450
   fetchColorBuffer: 1
   requirements: 0
-  passMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  passMaterial: {fileID: 2100000, guid: 571165e64d85b2b4f89f842d36856a48, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+--- !u!114 &8325450713178882704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: DifuseTP
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.FullScreenPassRendererFeature
+  m_Active: 0
+  injectionPoint: 450
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 8ab60829c6f27064fb5135acf3c8a464, type: 2}
   passIndex: 0
   bindDepthStencilAttachment: 0
   m_Version: 1

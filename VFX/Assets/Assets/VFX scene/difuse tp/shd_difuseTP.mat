@@ -7,8 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_fog
-  m_Shader: {fileID: 4800000, guid: 2f7d7ba62ffb57f44ae09641f4f825f0, type: 3}
+  m_Name: shd_difuseTP
+  m_Shader: {fileID: -6465566751694194690, guid: d78b366889b373b49a186cdc5f8d6491,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,17 +24,21 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e9a62b73e6dfac347ab07339f289934a, type: 3}
-        m_Scale: {x: 0.1, y: 1}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.707
-    - _Radius: 0.67
-    - _Softness: 1.18
-    m_Colors:
-    - _PlayerPos: {r: 8.92553, g: 2.8799999, b: 35.942387, a: 0}
-    - _ScrollSpeed: {r: 0.02, g: 0, b: 0, a: 0}
+    - _DissolveAmount: -0.03
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -14527,9 +14527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1de20208ad8b1044829168502fd159f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PortalController
-  fullscreenMaterial: {fileID: -876546973899608171, guid: 4eb7e2d216abc8a44ae64c289479bdfd,
-    type: 3}
-  sceneName: DisplayScene
+  blurFeature: {fileID: 6394352869153192241, guid: c40be3174f62c4acf8c1216858c64956,
+    type: 2}
+  blurMaterial: {fileID: 2100000, guid: 571165e64d85b2b4f89f842d36856a48, type: 2}
   duration: 1
 --- !u!65 &366012724
 BoxCollider:

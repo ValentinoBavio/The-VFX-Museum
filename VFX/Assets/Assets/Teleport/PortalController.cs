@@ -1,37 +1,83 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class PortalController : MonoBehaviour
 {
-    [SerializeField] private Material fullscreenMaterial;
-    [SerializeField] private string sceneName;
-    [SerializeField] private float duration = 1f;
+    [SerializeField] private FullScreenPassRendererFeature blurFeature;
+    [SerializeField] private Material blurMaterial;
 
-    private bool activated;
+    private float targetBlend = 1f;
+    [SerializeField] private float duration;
+
+    private Coroutine blendRoutine;
+
+    void Start()
+    {
+        blurFeature.SetActive(false);
+        blurMaterial.SetFloat("_Blend", 0f);
+    }
+
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Q))
+    //    {
+    //        blurFeature.SetActive(true);
+
+    //        if (blendRoutine != null)
+    //            StopCoroutine(blendRoutine);
+
+    //        blendRoutine = StartCoroutine(BlendRoutine());
+    //    }
+    //}
 
     private void OnTriggerEnter(Collider other)
     {
-        if (activated) return;
+        if (!other.CompareTag("Player"))
+            return;
 
-        if (other.CompareTag("Player"))
-        {
-            activated = true;
-            StartCoroutine(Transition());
-        }
+        blurFeature.SetActive(true);
+
+        if (blendRoutine != null)
+            StopCoroutine(blendRoutine);
+
+        blendRoutine = StartCoroutine(BlendRoutine());
     }
 
-    IEnumerator Transition()
+
+
+
+
+
+    IEnumerator BlendRoutine()
     {
-        float t = 0;
+        float t = 0f;
 
         while (t < duration)
         {
             t += Time.deltaTime;
-            fullscreenMaterial.SetFloat("_Progress", t / duration);
+            float blend = Mathf.Lerp(0f, targetBlend, t / duration);                        
+
+            blurMaterial.SetFloat("_Blend", blend);
             yield return null;
         }
 
-        SceneManager.LoadScene(sceneName);
+        t = 0f;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            float blend = Mathf.Lerp(targetBlend, 0f, t / duration);                       
+
+            blurMaterial.SetFloat("_Blend", blend);
+            yield return null;
+        }
+
+        blurMaterial.SetFloat("_Blend", 0f);
+        blurFeature.SetActive(false);
+
+        // Cargar la nueva escena
+        SceneManager.LoadScene("DisplayScene");
     }
 }
