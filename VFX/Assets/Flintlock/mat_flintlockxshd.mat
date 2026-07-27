@@ -62,15 +62,15 @@ Material:
     m_Floats:
     - _FresnelPower: -0.56
     - _GradientNoisePower: 5
-    - _GradientNoiseScale: 15
+    - _GradientNoiseScale: 14.19
     - _Metallic: 7.68
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
-    - _GradientNoiseColor: {r: 1, g: 0.13836959, b: 0, a: 1}
-    - _GradientNoiseSpeed: {r: 0, g: 0.3, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GradientNoiseColor: {r: 0, g: 0.62885755, b: 7.999999, a: 1}
+    - _GradientNoiseSpeed: {r: 0.29, g: 0.36, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
