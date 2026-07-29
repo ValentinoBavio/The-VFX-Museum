@@ -19,19 +19,6 @@ public class PortalController : MonoBehaviour
         blurMaterial.SetFloat("_Blend", 0f);
     }
 
-    //void Update()
-    //{
-    //    if (Input.GetKeyDown(KeyCode.Q))
-    //    {
-    //        blurFeature.SetActive(true);
-
-    //        if (blendRoutine != null)
-    //            StopCoroutine(blendRoutine);
-
-    //        blendRoutine = StartCoroutine(BlendRoutine());
-    //    }
-    //}
-
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player"))
