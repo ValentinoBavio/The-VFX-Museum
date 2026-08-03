@@ -65,6 +65,9 @@ public class FlintlockWeapon : MonoBehaviour
     [SerializeField] private WeaponComboSystem comboSystem;
     [SerializeField] private WeaponShaderController shaderController;
 
+    [Header("Crosshair")]
+    [SerializeField] private WeaponCrosshair weaponCrosshair;
+
     private Vector3 restingLocalPosition;
     private Quaternion restingLocalRotation;
 
@@ -119,6 +122,11 @@ public class FlintlockWeapon : MonoBehaviour
         {
             weaponRoot.SetActive(false);
         }
+
+        if (weaponCrosshair == null)
+        {
+            weaponCrosshair = GetComponent<WeaponCrosshair>();
+        }
     }
 
     private void Update()
@@ -155,6 +163,11 @@ public class FlintlockWeapon : MonoBehaviour
 
         isEquipped = true;
         weaponRoot.SetActive(true);
+
+        if (weaponCrosshair != null)
+        {
+            weaponCrosshair.Show();
+        }
 
         if (weaponAnimationCoroutine != null)
         {

@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026bd7cc65ab9654ba683c726f6faefe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  speed: 45
+  speed: 80
   lifetime: 5
   impactVfxPrefab: {fileID: 0}
   impactVfxLifetime: 3
