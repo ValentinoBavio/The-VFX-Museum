@@ -58,6 +58,7 @@ Material:
     - _QueueOffset: 0
     - _Rain_Amount: 1
     - _Zoom: 0
-    m_Colors: []
+    m_Colors:
+    - _Gravity: {r: 0, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -134,7 +134,14 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "5497a80bb78d43db85437b146363a554"
+        },
+        {
+            "m_Id": "9e0c8096e9f44af4832a0e59da23fc5d"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -1467,8 +1474,8 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -1133.0001220703125,
-            "y": 94.99996185302735,
-            "width": 208.00006103515626,
+            "y": 153.00001525878907,
+            "width": 208.0001220703125,
             "height": 302.0
         }
     },
@@ -1480,7 +1487,7 @@
             "m_Id": "4fd49d965bc741d6ae3e4eb9d2b31434"
         },
         {
-            "m_Id": "ea53422e65de4125add100008e2ab325"
+            "m_Id": "9296a850113b4399854f40794a9be126"
         },
         {
             "m_Id": "6f71d0ec8be046ef956f4411d4ec20df"
@@ -1584,6 +1591,26 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "5497a80bb78d43db85437b146363a554",
+    "m_Title": "Frag4, funcion creada aparte",
+    "m_Content": "N() / N13() → Generan valores aleatorios para la posición, tamaño y movimiento de las gotas.\nStaticDrops() → Crea pequeñas gotas estáticas sobre el vidrio.\nDropLayer2() → Genera gotas en movimiento con sus estelas (trails).\nDrops() → Combina las capas de gotas estáticas y en movimiento en una sola máscara de lluvia.\nfrag4_float() →\nLlama a Drops() para generar el patrón de lluvia.\nCalcula el vector de distorsión UV (_Out) a partir de píxeles vecinos.\nCalcula el nivel de desenfoque (_Lod) según la intensidad de las gotas y sus estelas.\nEstos valores se usan con Sample Buffer para distorsionar y desenfocar la escena, simulando el efecto de un vidrio mojado.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -885.0,
+        "y": 167.0,
+        "width": 200.0,
+        "height": 388.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2352,6 +2379,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "9296a850113b4399854f40794a9be126",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.NormalizeNode",
     "m_ObjectId": "953a2c0e7d8e41f984c198dbc5f12994",
     "m_Group": {
@@ -2444,6 +2492,26 @@
     "m_DefaultValue": 0.0,
     "m_Labels": [],
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "9e0c8096e9f44af4832a0e59da23fc5d",
+    "m_Title": "Negate",
+    "m_Content": "Devuelve el valor de la entrada In con el signo invertido",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -2676.0,
+        "y": 88.0,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2761,10 +2829,10 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1687.0001220703125,
-            "y": 76.00001525878906,
+            "x": -1692.0,
+            "y": 76.0,
             "width": 84.0,
-            "height": 75.99995422363281
+            "height": 77.0
         }
     },
     "m_Slots": [
@@ -3713,27 +3781,6 @@
         "w": 0.0
     },
     "m_LiteralMode": false
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
-    "m_ObjectId": "ea53422e65de4125add100008e2ab325",
-    "m_Id": 1,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0
-    },
-    "m_Labels": []
 }
 
 {

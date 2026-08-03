@@ -41,18 +41,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _Density: 1500
-    - _HeightWaves: 0.00001
-    - _Noise_waves: 0.001
+    - _HeightWaves: 0.5
+    - _Noise_waves: 0.5
     - _Power: 5.3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Radius: 0
     - _Speed: 3.9
+    - _SpeedUV: 0.08
     - _blur: 0.05
     - topDown_Radius: 0
     m_Colors:
     - _Color: {r: 0, g: 0.49803925, b: 1, a: 1}
     - _ColorWaves: {r: 0.65601635, g: 0.69117206, b: 0.735849, a: 1}
+    - _Direction: {r: 0, g: -1, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

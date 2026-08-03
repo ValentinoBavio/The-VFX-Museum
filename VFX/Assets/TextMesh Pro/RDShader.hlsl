@@ -1,17 +1,10 @@
 #ifndef RDShader
 #define RDShader
 
-// Heartfelt - by Martijn Steinrucken aka BigWings - 2017
-// Email:countfrolic@gmail.com Twitter:@The_ArtOfCode
-// License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-// HDRP conversion by Dan Gale
-
-
 #define S(a, b, t) smoothstep(a, b, t)
 
 
 float3 N13(float p) {
-    //  from DAVE HOSKINS
     float3 p3 = frac(p * float3(.1031, .11369, .13787));
     p3 += dot(p3, p3.yzx + 19.19);
     return frac(float3((p3.x + p3.y) * p3.z, (p3.x + p3.z) * p3.y, (p3.y + p3.z) * p3.x));
@@ -70,7 +63,7 @@ float2 DropLayer2(float2 uv, float t) {
     droplets = S(.3, 0., dd);
     float m = mainDrop + droplets * r * trailFront;
     
-    //m += st.x>a.y*.45 || st.y>a.x*.165 ? 1.2 : 0.;
+    
     return float2(m, trail);
 }
 
@@ -108,10 +101,10 @@ void frag4_float(float4 _uvParams, float4 _params, out float2 _Out, out float _L
     float zoom = _params.z;
     float rainAmount = _params.w;
 
-    float T = _Time.y;//fmod
+    float T = _Time.y;
     
     float2 uv = (uvP * size) - (size * 0.5);
-    //float2 UV = uv;
+    
 
     float t = T * .2;
     
@@ -120,7 +113,7 @@ void frag4_float(float4 _uvParams, float4 _params, out float2 _Out, out float _L
 
     uv *= .7+zoom*.3;
 
-    //UV = (UV - .5) * (.9 + zoom * .1) + .5;
+    
     
     float staticDrops = S(-.5, 1., rainAmount) * 2.;
     float layer1 = S(.25, .75, rainAmount);
@@ -131,7 +124,7 @@ void frag4_float(float4 _uvParams, float4 _params, out float2 _Out, out float _L
     float2 e = float2(.001, 0.);
     float cx = Drops(uv + e, t, staticDrops, layer1, layer2).x;
     float cy = Drops(uv + e.yx, t, staticDrops, layer1, layer2).x;
-    float2 n = float2(cx - c.x, cy - c.x); // expensive normals
+    float2 n = float2(cx - c.x, cy - c.x); 
 
     c.y *= trailBlur - S(80., 100., T) * .8;
     float focus = lerp(blur - c.y, blur, S(.1, .2, c.x));
