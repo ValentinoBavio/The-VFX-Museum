@@ -33,7 +33,7 @@ Material:
     - _Radius: 0.67
     - _Softness: 1.18
     m_Colors:
-    - _PlayerPos: {r: 9.175738, g: 2.9041026, b: 37.190266, a: 0}
+    - _PlayerPos: {r: -9.609545, g: 0.62999994, b: 6.157904, a: 0}
     - _ScrollSpeed: {r: 0.02, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
